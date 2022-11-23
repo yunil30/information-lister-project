@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal Information</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style/main.css">
+    </head>
+    <body>
+        <header>
+            <h1 id="pageHeader">Personal Information</h1>
+        </header>
+        <main>
+            <div id="mainForm">
+                <div id="titleDiv1">
+                    <h2>Enter Information</h2>
+                </div>
+                <div id="inputDiv">
+                    <label id="lblForm">Firstname:</label>
+                    <input type="text" id="inputFname">
+                    <span id="warning1" class="warning"></span>
+                </div>
+                <div id="inputDiv">
+                    <label id="lblForm">Lastname:</label>
+                    <input type="text" id="inputLname">
+                    <p id="warning2" class="warning"></p>
+                </div>
+                <div id="inputDiv">
+                    <label id="lblForm">Age:</label>
+                    <input type="text" id="inputAge">
+                    <p id="warning3" class="warning"></p>
+                </div>
+                <div id="submitDiv">
+                    <button id="btnSubmit">submit</button>
+                </div>
+            </div>
+            <div id="listForm">
+                <div id="titleDiv2">
+                    <h2>Information List</h2>
+                </div>
+                <div id="listInfo">
+                    <div id="infos">
+                        Firstname : John<br>
+                        Lastname : Doe<br>
+                        Age : 22
+                        <button class="delInfo" id="delInfo">x</button>
+                    </div>
+                    <div id="infos">
+                        Firstname : Sophia<br>
+                        Lastname : Smith<br>
+                        Age : 19
+                        <button class="delInfo" id="delInfo">x</button>
+                    </div>
+                </div>  
+            </div>
+            <script src="script/main.js"></script>
+        </main> 
+    </body>
+</html>

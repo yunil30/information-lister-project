@@ -1,0 +1,296 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+
+body{
+    background-color: #effaff;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2%;
+}
+
+/* Header part of the website */
+header{
+    background-color: white;
+    box-shadow: 0 0 5px #5f5f5f70;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2%;
+    width: 100%;
+    height: 60px;
+    top: 0;
+}
+
+#pageHeader{
+    color: #333333;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
+/* Main part of the website */
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2%;  
+}
+
+#mainForm{
+    background-color: white;
+    box-shadow: 0 0 5px #5f5f5f70;
+    border-radius: 3px;
+    border-radius: 5px;
+    width: 350px;
+    height: 400px;
+    padding: 40px 30px 30px 30px;
+}
+
+/* This section is for title. */
+#titleDiv1{
+    color: #333333;
+    border-radius: 3px;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-decoration: none;
+    display: grid;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+#inputDiv{
+    background-color: white;
+    height: 80px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+#lblForm{
+    color: #333333;
+    border-radius: 3px;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    margin-bottom: 2px;
+}
+
+/* This section is for textboxes. */
+#inputFname{
+    background-color: white;
+    border: 0.5px solid #333333;
+    border-radius: 3px;
+    color: #333333;
+    border-radius: 3px;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    padding: 8px 12px 8px 12px;
+}
+
+#inputFname:hover{
+    box-shadow: inset 0 0 2px rgb(100, 100, 100);
+    border: 1px solid #333333;
+    border-radius: 3px;
+    outline: none;
+}
+
+#inputFname:focus{
+    box-shadow: inset 0 0 3px rgb(100, 100, 100);
+    border: 1px solid #333333;
+    border-radius: 3px;
+    outline: none;
+}
+
+#inputLname{
+    background-color: white;
+    border: 0.5px solid #333333;
+    border-radius: 3px;
+    color: #333333;
+    border-radius: 3px;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    padding: 8px 12px 8px 12px;
+}
+
+#inputLname:hover{
+    box-shadow: inset 0 0 2px rgb(100, 100, 100);
+    border: 1px solid #333333;
+    border-radius: 3px;
+    outline: none;
+}
+
+#inputLname:focus{
+    box-shadow: inset 0 0 3px rgb(100, 100, 100);
+    border: 1px solid #333333;
+    border-radius: 3px;
+    outline: none;
+}
+
+#inputAge{
+    background-color: white;
+    border: 0.5px solid #333333;
+    border-radius: 3px;
+    color: #333333;
+    border-radius: 3px;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    padding: 8px 12px 8px 12px;
+}
+
+#inputAge:hover{
+    box-shadow: inset 0 0 2px rgb(100, 100, 100);
+    border: 1px solid #333333;
+    border-radius: 3px;
+    outline: none;
+}
+
+#inputAge:focus{
+    box-shadow: inset 0 0 3px rgb(100, 100, 100);
+    border: 1px solid #333333;
+    border-radius: 3px;
+    outline: none;
+}
+
+/* This section is for submit button. */
+#submitDiv{
+    background-color: white;
+    height: 80px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#btnSubmit{
+    background-color: white;
+    border: 0.5px solid #333333;
+    border-radius: 3px;
+    border-radius: 3px;
+    color: #333333;
+    border-radius: 3px;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    margin-top: 10px;
+    width: 200px;
+    height: 38px;
+    transition: background-color 0.15s, color 0.15s;
+}
+
+#btnSubmit:hover{
+    background-color: #333333;
+    border-radius: 3px;
+    color: white;
+}
+
+#btnSubmit:active{
+    background-color: #424242;
+}
+
+/* This section is for error message section */
+.warning{
+    color: red;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    margin-top: 2px;
+}
+
+/* This section is for the info list. */
+#listForm{
+    background-color: white;
+    box-shadow: 0 0 5px #5f5f5f70;
+    border-radius: 3px;
+    border-radius: 5px;
+    width: 350px;
+    height: 400px;
+    padding: 40px 30px 30px 30px;
+}
+
+#titleDiv2{
+    color: #333333;
+    border-radius: 3px;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-decoration: none;
+    display: grid;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+#listInfo{
+    background-color: white;
+    box-shadow: inset 0 0 3px rgb(100, 100, 100);
+    border: 0.5px solid #333333;
+    border-radius: 3px;
+    border-radius: 5px;
+    height: 335px;
+    padding: 10px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+#listInfo::-webkit-scrollbar{
+    border-radius: 3px;
+    width: 8px;
+}
+
+#listInfo::-webkit-scrollbar-thumb{
+    border-radius: 3px;
+    background: #333333;
+}
+
+#infos{
+    position: relative;
+    background-color: #333333;
+    border: 0.5px solid #333333;
+    border-radius: 3px;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    line-height: 30px;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    overflow: hidden;
+}
+
+/* This section is for delete button. */
+#delInfo{
+    position: absolute;
+    background-color: #EE6C4D;
+    border: 0.5px solid #EE6C4D;
+    border-radius: 3px;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.15s, border 0.15s;
+    height: 25px;
+    width: 25px;
+    top: 10px;
+    right: 10px;
+}
+
+#delInfo:hover{
+    background-color: #ce5f43;
+    border: 0.5px solid #ce5f43;
+}
+
+#delInfo:active{
+    opacity: 0.8;
+}
